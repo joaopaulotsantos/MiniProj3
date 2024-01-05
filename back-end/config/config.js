@@ -1,9 +1,8 @@
 module.exports = {
     mongodb: {
-        uri: 'mongodb+srv://fcabook:fT73qsfEjZ7C@fcabook-jly7a.mongodb.net/pwa_teste?retryWrites=true&w=majority',
-        //uri: 'mongodb+srv://fcabook:fT73qsfEjZ7C@fcabook-jly7a.mongodb.net/test?retryWrites=true&w=majority',
-        //uri: 'mongodb://jp:teste@192.168.1.77:27017/pwa_teste',
-        //uri: 'mongodb://jp:teste@mestrado-pwa.ddns.net:27017/pwa_teste',
+        uri: 'mongodb+srv://fcabook:password@fcabook-jly7a.mongodb.net/pwa_teste?retryWrites=true&w=majority',
+        //uri: 'mongodb://jp:password@192.168.1.77:27017/pwa_teste',
+        //uri: 'mongodb://jp:password@mestrado-pwa.ddns.net:27017/pwa_teste',
         collections: {
             animal: 'animals',
             question: 'questions',
